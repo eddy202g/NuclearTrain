@@ -1,0 +1,71 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U train%b		train.adb		f42513f2 NE OO PK
+W carriage%s		carriage.adb		carriage.ali
+W reactor%s		reactor.adb		reactor.ali
+W rods%s		rods.adb		rods.ali
+
+U train%s		train.ads		a2b512e4 EE NE OO PK
+W carriage%s		carriage.adb		carriage.ali
+W reactor%s		reactor.adb		reactor.ali
+W rods%s		rods.adb		rods.ali
+
+D carriage.ads		20200417115050 3b34039c carriage%s
+D reactor.ads		20200503135242 6a4edf9b reactor%s
+D rods.ads		20200504190336 67efcbca rods%s
+D system.ads		20170516105954 32a08138 system%s
+D train.ads		20200504190340 94200529 train%s
+D train.adb		20200504190336 56900116 train%b
+X 1 carriage.ads
+1K9*Carriage 29e13 5|1w6 1r20 6|1w6 1r20
+27V13*carriageCount{integer} 6|42s14 44s19
+X 2 reactor.ads
+3K9*reactor 29e12 5|3w6 3r19 6|3w6 3r19
+5I9*temperatureLevel<short_short_integer>
+7I9*elecLevel<short_integer>
+8n28*Running{8E9} 5|17r32 6|8r32
+8n37*Overheated{8E9} 5|21r32 25r65 6|15r32 22r63
+8n49*Offline{8E9} 5|26r86 31r29 6|25r30 32r34
+10R9*ReactorState 15e14 5|12r17
+11i7*temp{5I9} 5|26r24 6|23m17
+13i7*electricity{7I9} 5|26r47 6|24m17 51r24 53r27 53r57
+14e7*status{8E9} 5|17r23 21r23 25r56 26r77 31r20 6|8r23 15r23 22r54 25m20
+. 32r24
+25V13*initialReactorState{10R9} 5|12s33 31s54 6|33s26
+X 3 rods.ads
+1K9*Rods 20e9 5|2w6 2r16 6|2w6 2r16
+7R9*ChamberState 10e14 5|13r14
+X 5 train.ads
+6K9*Train 37l5 37e10 6|4b14 62l5 62t10
+8I12*Speed{integer} 11r22 17r61 18r31 21r64 22r31 25r30 29r30 30r31 34r30
+. 34r64 6|8r61 9r28 15r64 16r28 22r28 31r28 41r28 41r62
+10R9*TrainRecord 14e14 16r34 20r39 24r40 28r38 33r39 6|6r34 13r39 20r40 29r38
+. 39r39
+11i7*currentSpeed{8I12} 17r46 18r16 21r49 22r16 25r15 29r15 30r16 34r15 34r48
+. 35r16 35r34 35r56 35r74 6|8r46 9m12 15r49 16m12 22r13 31r13 35m15 41r13
+. 41r46 43m15 45m18 47m18 52m15 52r33 54m15 54r33
+12r7*reactor{2|10R9} 17r15 21r15 25r48 26r16 26r39 26r69 31r12 31r44 6|8r15
+. 15r15 22r46 23m9 24m9 25m12 32r16 33m15 51r16 53r19 53r49
+13r7*rods{3|7R9}
+16U14*StopTrain 16=24 6|6b14 11l13 11t22
+16r24 t{10R9} 17r13 17r44 18r14 6|6b24 8r13 8r44 9m10
+20U14*EmergencyStop 20=28 6|13b14 18l8 18t21
+20r28 t{10R9} 21r13 21r47 22r14 6|13b28 15r13 15r47 16m10
+24U14*DisableReactor 24=29 6|20b14 27l8 27t22
+24r29 t{10R9} 25r13 25r46 26r14 26r37 26r67 6|20b29 22r11 22r44 23m7 24m7
+. 25m10
+28U14*RestartTrain 28=27 6|29b14 37l8 37t20
+28r27 t{10R9} 29r13 30r14 31r10 31r42 6|29b27 31r11 32r14 33m13 35m13
+33U14*RegulateSpeed 33=28 6|39b14 59l11 59t24
+33r28 t{10R9} 34r13 34r46 35r14 35r32 35r54 35r72 6|39b28 41r11 41r44 43m13
+. 45m16 47m16 51r14 52m13 52r31 53r17 53r47 54m13 54r31
+

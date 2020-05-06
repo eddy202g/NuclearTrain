@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\traincontrol.gpr
+20200410122656
+[BOUND OBJECT FILES]
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\carriage.o
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\reactor.o
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\rods.o
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\train.o
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\
+-LC:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\
+-LC:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

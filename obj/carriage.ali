@@ -1,0 +1,71 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U carriage%b		carriage.adb		66eab280 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U carriage%s		carriage.ads		3b34039c EE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D carriage.ads		20200417115050 3b34039c carriage%s
+D carriage.adb		20200419164126 65b344c8 carriage%b
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 9|2r6
+X 6 a-textio.ads
+49K13*Text_IO 471e16 9|2w10
+X 8 carriage.ads
+1K9*Carriage 29l5 29e13 9|3b14 34l5 34t13
+5E9*CoupledDecoupled 5e49 9r16
+5n30*Coupled{5E9} 14r39 20r36 25r37 9|7r33 17r34
+5n39*Decoupled{5E9} 15r39 16r39 21r69 24r68 9|9r34 15r65
+6E9*LockedUnlocked 6e45 10r13
+6n28*Locked{6E9} 14r55 20r67 25r68 9|7r64 16r27 25r20 27r20 29r20
+6n36*Unlocked{6E9} 15r57 16r57 21r33 24r32 9|8r27 15r29
+8R9*CarriageRecord 11e14 14r9 15r9 16r9 19r52 23r49 9|5r52 13r50
+9e7*knuckle{5E9} 14m28 15m28 16m28 20r26 21r59 24r58 25r27 9|7r23 9m23 15r55
+. 17m23
+10e7*pin{6E9} 14m48 15m50 16m50 20r61 21r27 24r26 25r62 9|7r58 8m20 15r23
+. 16m20 25r14 27r14 29r14
+14r4*C1{8R9} 9|25r11
+15r4*C2{8R9} 9|27r11
+16r4*C3{8R9} 9|29r11
+19U14*removeCarriage 19=30 9|5b14 11l8 11t22
+19r30 thisCarriage{8R9} 20r13 20r48 21r14 21r46 9|5b30 7r10 7r45 8m7 9m10
+23U14*addCarriage 23=27 9|13b15 20l11 20t22
+23r27 thisCarriage{8R9} 24r13 24r45 25r14 25r49 9|13b28 15r10 15r42 16m7
+. 17m10
+27V13*carriageCount{integer} 9|22b13 32l11 32t24
+X 9 carriage.adb
+23i7 count{integer} 25m33 25r42 27m33 27r42 29m33 29r42 31r17
+

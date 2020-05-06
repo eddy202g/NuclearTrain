@@ -1,0 +1,62 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U rods%b		rods.adb		91bd0328 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U rods%s		rods.ads		67efcbca EE NE OO PK
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D rods.ads		20200504190336 67efcbca rods%s
+D rods.adb		20200504173638 ce3f3d36 rods%b
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+X 10 rods.ads
+1K9*Rods 20l5 20e9 11|2b14 24l5 24t9
+4N4*Maximum_Size 5r33
+5A9*Stack_List(character)<integer> 8r15
+7R9*ChamberState 10e14 12r36 16r39 11|5r36 15r39
+8a7*slots{5A9} 13r32 13r66 17r31 17r66 11|7r30 7r64 8r28 10m16 17r29 17r64
+. 18r31
+9i7*top{integer} 13r19 13r54 14r20 14r32 17r19 17r53 18r20 18r36 11|7r17
+. 7r52 8r16 9m16 9r29 10r28 17r17 17r51 18r19 19m19 19r32
+12U14*AddRod 12=21 12>50 11|5b14 13l8 13t14
+12r21 stack{7R9} 13r13 13r26 13r48 13r60 14r14 14r26 11|5b21 7r11 7r24 7r46
+. 7r58 8r10 8r22 9m10 9r23 10m10 10r22
+12e50 In_Char{character} 11|5b50 10r36
+16U14*RemoveRod 16=24 11|15b14 22l8 22t17
+16r24 stack{7R9} 17r13 17r25 17r47 17r60 18r14 18r30 11|15b24 17r11 17r23
+. 17r45 17r58 18r13 18r25 19m13 19r26
+

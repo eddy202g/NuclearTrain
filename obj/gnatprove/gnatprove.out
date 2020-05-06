@@ -1,0 +1,44 @@
+Summary of SPARK analysis
+=========================
+
+-------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   Interval   CodePeer      Provers   Justified   Unproved
+-------------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .          .            .           .          .
+Flow Dependencies                 .         .          .          .            .           .          .
+Initialization                    .         .          .          .            .           .          .
+Non-Aliasing                      .         .          .          .            .           .          .
+Run-time Checks                  13         .          .          .    13 (CVC4)           .          .
+Assertions                        .         .          .          .            .           .          .
+Functional Contracts             11         .          .          .    11 (CVC4)           .          .
+LSP Verification                  .         .          .          .            .           .          .
+-------------------------------------------------------------------------------------------------------
+Total                            24         .          .          .    24 (100%)           .          .
+
+
+max steps used for successful proof: 1
+
+Analyzed 5 units
+in unit carriage, 4 subprograms and packages out of 4 analyzed
+  Carriage at carriage.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Carriage.addCarriage at carriage.ads:23 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Carriage.carriageCount at carriage.ads:27 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Carriage.removeCarriage at carriage.ads:19 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:10 skipped
+in unit reactor, 4 subprograms and packages out of 4 analyzed
+  reactor at reactor.ads:3 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  reactor.decreaseTemp at reactor.ads:21 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  reactor.increaseTemp at reactor.ads:17 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (4 checks)
+  reactor.initialReactorState at reactor.ads:25 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+in unit rods, 3 subprograms and packages out of 3 analyzed
+  Rods at rods.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Rods.AddRod at rods.ads:12 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Rods.RemoveRod at rods.ads:16 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+in unit train, 6 subprograms and packages out of 6 analyzed
+  Train at train.ads:6 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Train.DisableReactor at train.ads:24 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Train.EmergencyStop at train.ads:20 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Train.RegulateSpeed at train.ads:33 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Train.RestartTrain at train.ads:28 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Train.StopTrain at train.ads:16 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)

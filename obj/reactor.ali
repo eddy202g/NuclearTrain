@@ -1,0 +1,48 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U reactor%b		reactor.adb		558c3ac7 NE OO PK IL
+
+U reactor%s		reactor.ads		517adc07 EE NE OO PK IL
+W carriage%s		carriage.adb		carriage.ali
+
+D carriage.ads		20200417115050 3b34039c carriage%s
+D reactor.ads		20200503135242 6a4edf9b reactor%s
+D reactor.adb		20200503135304 3fc2e55c reactor%b
+D system.ads		20170516105954 32a08138 system%s
+X 1 carriage.ads
+1K9*Carriage 29e13 2|1w6 1r20
+X 2 reactor.ads
+3K9*reactor 29l5 29e12 3|1b14 32l5 32t12
+5I9*temperatureLevel<short_short_integer> 11r14
+6I9*waterLevel<short_short_integer> 12r15
+7I9*elecLevel<short_integer> 13r21
+8E9*RunningOverOff 8e57 14r16
+8n28*Running{8E9} 3|26r95
+8n37*Overheated{8E9} 3|13r28
+8n49*Offline{8E9}
+10R9*ReactorState 15e14 17r45 21r45 25r40 3|4r45 19r45 25r40 26r22
+11i7*temp{5I9} 18r21 19r22 19r37 22r21 23r22 23r37 3|6r19 7m18 7r34 12r41
+. 21m15 21r31 26m39
+12i7*water{6I9} 18r75 19r58 19r74 3|6r73 8m18 8r35 12r19 26m51
+13i7*electricity{7I9} 18r44 22r44 23r58 23r80 3|6r42 9m18 9r41 22m15 22r38
+. 26m65
+14e7*status{8E9} 3|13m18 26m85
+17U14*increaseTemp 17=28 3|4b14 16l8 16t20
+17r28 reactor{10R9} 18r13 18r36 18r67 19r14 19r29 19r50 19r66 3|4b28 6r11
+. 6r34 6r65 7m10 7r26 8m10 8r27 9m10 9r33 12r11 12r33 13m10
+21U14*decreaseTemp 21=28 3|19b14 23l8 23t20
+21r28 reactor{10R9} 22r13 22r36 23r14 23r29 23r50 23r72 3|19b28 21m7 21r23
+. 22m7 22r30
+25V13*initialReactorState{10R9} 3|25b13 29l8 29t27
+X 3 reactor.adb
+26r7 initialstate{2|10R9} 28r14
+

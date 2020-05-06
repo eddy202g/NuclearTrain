@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\edmor\AppData\Local\Temp\GNAT-TEMP-000005.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2017
+[MAIN BASE NAME]
+carriage
+[COMPILER PATH]
+c:\gnat\2017\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\obj\carriage.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\edmor\Desktop\4thYear\FormalApproaches\Coursework\Project\traincontrol.gpr
+20200410122656

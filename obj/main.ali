@@ -1,0 +1,142 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U main%b		main.adb		99824332 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W carriage%s		carriage.adb		carriage.ali
+W interfaces%s		interfac.ads		interfac.ali
+W reactor%s		reactor.adb		reactor.ali
+W rods%s		rods.adb		rods.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W train%s		train.adb		train.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20170516105948 9f20b83d ada.calendar.delays%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-inteio.ads		20170516105954 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D carriage.ads		20200417115050 3b34039c carriage%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D main.adb		20200503115408 f5112da6 main%b
+D reactor.ads		20200503135242 6a4edf9b reactor%s
+D rods.ads		20200504190336 67efcbca rods%s
+D system.ads		20170516105954 32a08138 system%s
+D s-conca2.ads		20170516105952 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-imenne.ads		20170516105950 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D train.ads		20200504190340 94200529 train%s
+X 1 ada.ads
+16K9*Ada 20e8 15|5r6 5r23 6r6 6r31
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 15|6w10 6r35
+X 9 a-textio.ads
+49K13*Text_IO 471e16 15|5w10 5r27
+242U14*Put 15|49s7 108s7
+263U14*Put_Line 15|16s7 17s7 18s7 19s7 20s7 21s7 22s7 23s7 24s7 25s7 26s7
+. 27s7 28s7 29s7 30s7 35s7 36s7 37s7 38s7 39s7 40s7 41s7 58s13 64s13 68s13
+. 69s13 73s10 83s13 88s13 92s13 93s13 97s10 122s13 149s13
+X 10 a-tiinio.ads
+56U14*Get 15|109s7[5|18]
+X 12 carriage.ads
+1K9*Carriage 29e13 15|1w6 1r20
+5n30*Coupled{5E9} 15|55r27 56r30 61r30 62r33 67r30
+6n28*Locked{6E9} 15|55r48 56r52 61r51 62r55 67r51 81r23 81r43 81r63 86r48
+. 86r68 91r70
+6n36*Unlocked{6E9} 15|86r26 91r26 91r48
+9e7*knuckle{5E9} 15|55r17 56r19 61r20 62r22 67r20
+10e7*pin{6E9} 15|55r42 56r45 61r45 62r48 67r45 81r17 81r37 81r57 86r20 86r42
+. 86r62 91r20 91r42 91r64
+14r4*C1{8R9} 15|55r14 55r39 81r54 86r59 91r61
+15r4*C2{8R9} 15|56r16 56r42 57m25 57r25 61r17 61r42 81r34 86r39 87m28 87r28
+. 91r39
+16r4*C3{8R9} 15|62r19 62r45 63m25 63r25 67r17 67r42 81r14 82m28 82r28 86r17
+. 91r17
+19U14*removeCarriage 15|82s13 87s13
+23U14*addCarriage 15|57s13 63s13
+27V13*carriageCount{integer} 15|20s48
+X 15 main.adb
+10U11*Main 10b11 208l5 208t9
+11r4 nt{33|10R9} 19r41 21r48 24r46 25r40 26r46 27r41 54r10 80r10 112m17 112r17
+. 113m23 113r23 114m24 114r24 121r14 127m24 127r24 129m25 129r25 138m20 138r20
+. 139m23 139r23 140m24 140r24 148r13 154m24 154r24 156m25 156r25 165m20 165r20
+. 197m23 197r23 198m24 198r24
+12i4 UserInput{integer} 106r10 109m11 111r10 137r13 164r13 175r13 185r13
+. 195r13
+14U14 TrainStatus 14b14 31l8 31t19 103s4 117s10 133s10 144s10 160s10 170s10
+. 181s10 191s10 202s10
+33U14 TrainMovingMenu 33b14 42l8 42t23 104s4 119s10 135s10 146s10 162s10
+. 172s10 183s10 193s10 204s10
+47U14 ClearScreen 47b14 50l8 50t19 115s10 131s10 142s10 158s10 168s10 179s10
+. 189s10 200s10
+52U14 AddingCarriage 52b14 76l8 76t22 177s10
+78U14 RemovingCarriage 78b14 100l8 100t24 187s10
+X 16 reactor.ads
+3K9*reactor 15|3w6 3r19 16|29e12
+5I9*temperatureLevel<short_short_integer>
+6I9*waterLevel<short_short_integer>
+7I9*elecLevel<short_integer>
+8n37*Overheated{8E9} 15|121r34 148r33
+11i7*temp{5I9} 15|24r57
+12i7*water{6I9} 15|25r51
+13i7*electricity{7I9} 15|26r57
+14e7*status{8E9} 15|27r52 121r25 148r24
+17U14*increaseTemp 15|139s10
+21U14*decreaseTemp 15|113s10
+X 17 rods.ads
+1K9*Rods 15|2w6 2r16 17|20e9
+9i7*top{integer} 15|21r56
+12U14*AddRod 15|112s10
+16U14*RemoveRod 15|138s10
+X 33 train.ads
+6K9*Train 15|4w6 4r17 11r9 33|37e10
+8I12*Speed{integer}
+10R9*TrainRecord 15|11r15 33|14e14
+11i7*currentSpeed{8I12} 15|19r44 54r13 80r13
+12r7*reactor{16|10R9} 15|24r49 25r43 26r49 27r44 113m26 121r17 139m26 148r16
+13r7*rods{17|7R9} 15|21r51 112m20 138m23
+16U14*StopTrain 15|165s10
+20U14*EmergencyStop 15|127s10 154s10
+24U14*DisableReactor 15|129s10 156s10
+28U14*RestartTrain 15|197s10
+33U14*RegulateSpeed 15|114s10 140s10 198s10
+

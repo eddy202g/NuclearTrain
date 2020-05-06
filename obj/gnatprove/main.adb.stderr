@@ -1,0 +1,2 @@
+main.adb:12:04: warning: variable "st" is never read and never assigned
+main.adb:106:10: warning: "UserInput" may be referenced before it has a value
